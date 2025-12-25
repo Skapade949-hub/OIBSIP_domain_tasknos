@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #fdfdfd;
+    color: #333;
+}
+
+/* NAVBAR */
+.header {
+    background: linear-gradient(to right, #fff1c1, #d9f1ff);
+    padding: 30px 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ff9800;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+}
+
+.hero-text span {
+    color: #ff9800;
+}
+
+.hero-text h3 {
+    margin: 15px 0;
+    color: #0077b6;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 12px 26px;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* IMAGE */
+.hero-image {
+    width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 60px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0077b6;
+}
+
+/* SKILLS */
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff7e6;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* SERVICES */
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #e6f7ff;
+    padding: 30px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+/* CONTACT */
+.contact {
+    background: #fff1c1;
+}
+
+/* FOOTER */
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text,
+    .hero-image {
+        width: 100%;
+    }
+}
